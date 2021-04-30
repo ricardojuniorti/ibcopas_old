@@ -1,0 +1,21 @@
+    /*RESET*/
+    *, *:before, *:after{
+        margin: 0;
+        padding: 0;
+        outline: 0;
+
+        font-family: 'SEGOEUI', sans-serif;
+        font-size: 1em;
+        font-weight: 300;
+
+        line-height: 1.2;
+        letter-spacing: 0em;
+
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    .container{display: block; float: left; width: 100%;}
+    .content{display: block; margin:0 auto; max-width: 1280px;}
+    .hide{display:none;}

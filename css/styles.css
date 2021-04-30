@@ -1,0 +1,102 @@
+
+nav ul li {
+    float: left;
+    list-style-type: none
+}
+
+nav ul li a {
+    display: block;
+    padding: .5rem 1rem;
+}
+main h1 {
+    clear: both;
+}
+
+main img{
+    float: right;
+}
+
+footer{
+    text-align: center
+}
+#main {
+  margin-top: 50px;
+}
+
+#filecontents {
+	float: left;
+	border: solid;
+	overflow-y: scroll;
+	width:auto;
+	height:auto;
+	border:2px solid black;
+	padding:10px;
+	display: inline-block;
+}
+#filecontents1 {
+	float: left;
+	border: solid;
+	overflow-y: scroll;
+	width:500px;
+	height:auto;
+	border:2px solid black;
+	padding:10px;
+	display: inline-block;
+}
+#filecontents2 {
+	float: left;
+	border: solid;
+	overflow-y: scroll;
+	width:500px;
+	height:auto;
+	border:2px solid black;
+	padding:10px;
+	display: inline-block;
+}
+#div span{
+	font-size: 2vw;
+	font-family:Tahoma; 
+	font-weight: 700;
+}
+
+#log{
+	font-size: 15px;
+	font-family:Tahoma; 
+	font-weight: 700;
+}
+
+#kodomsg{
+	background-color: white;
+	font-size: 1vw;
+	font-family:Tahoma; 
+	font-weight: 700;
+	width: 200px;
+	height: 60px;
+	position: fixed;
+	right: 40%;
+	top: 40%;
+}
+
+#menuprincipal {
+  top: 650px;
+}
+
+#telalogin {
+	width: 350px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 1px 5px 30px rgb(143, 142, 142);
+	
+}
+
+#fundo {
+	background-color: rgb(221, 217, 217);
+	background-image: url("../images/fundo.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+

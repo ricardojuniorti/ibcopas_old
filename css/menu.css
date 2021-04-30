@@ -1,0 +1,112 @@
+
+			/* Reset CSS */
+					*, *:after, *:before{
+						margin: 0;
+						padding: 0;
+						box-sizing: border-box;
+						font-family:Tahoma;
+						font-size: 14px;
+						line-height: 1.5;
+						
+					}
+					#cabecalho{
+						position:fixed;	
+						background-color: #FFF;	
+						width: 100%;
+					}
+					/* Fundo do menu */
+					.menu{
+						top: 15px;		  
+						background: #6c991a;						
+						width: 100%;
+					}
+					
+					/* Remove as bolinhas do lado das listas */
+					.menu .menu-list, .menu .sub-menu{
+						list-style: none;
+					}
+					/* Configura todos os links do nosso menu */
+					.menu a{
+						color: #fff;
+						text-decoration: none;
+						display: block;
+						cursor: pointer;
+						text-transform: uppercase;
+						font-size: large;
+						font-weight: bolder;
+						
+					}
+					
+					/* Faz os <li>s ficarem na horizontal */
+					.menu > .menu-list > li{
+						float: left;
+						position: relative;
+					}
+					/* Configura os links do menu principal */
+					.menu > .menu-list > li > a {
+						padding: 20px;
+						margin: 0 5px;
+						background: #6c991a;
+					}
+					/* Configura o fundo do menu principal quando com mouse hover */
+					.menu > .menu-list > li:hover a {
+						background: #6c991a;
+						
+					}
+					
+					.inicio > a:hover {
+						text-decoration: underline;
+					}
+					.cadastros > a:hover {
+						text-decoration: underline;
+					}
+						.pessoas > a:hover {
+							text-decoration: underline;
+						}
+						.ministerios > a:hover {
+							text-decoration: underline;
+						}
+						.associacao > a:hover {
+							text-decoration: underline;
+						}
+					.ajuda > a:hover {
+						text-decoration: underline;
+					}	.faq > a:hover {
+							text-decoration: underline;
+						}
+						.sobre > a:hover {
+							text-decoration: underline;
+						}
+						
+					
+					/* Mostra o submenu no evento de mouse hover */
+					.menu > .menu-list > li:hover > .sub-menu {
+						display: block;
+					}
+					/* Configura o estilo do submenu */
+					.menu > .menu-list > li > .sub-menu {
+						position: absolute;
+						top: 50px;
+						left: 5px;
+						background: blue;
+						min-width: 200px;
+						z-index: 1000;
+						display: none;
+					}
+					/* Configura os links do submenu */
+					.menu > .menu-list > li > .sub-menu > li > a {
+						padding: 10px 20px;
+					}
+					/* Clearfix para o menu */
+					.menu:after {
+						content: '.';
+						display: block;
+						clear: both;
+						visibility: hidden;
+						line-height: 0;
+						height: 0;
+					}
+					/* resolucao de celular*/
+					@media(max-width: 576px){
+
+					}
