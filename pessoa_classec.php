@@ -48,7 +48,7 @@ require_once ("funcoes.php");
 	</div>
 	<div class="row">
 		 <div class="form-group col-md-1">
-  	  	<label for="exampleInputEmail1">Para qual classe?</label></BR>
+  	  	<label for="exampleInputEmail1">Para qual classee?</label></BR>
 
 <?php
 	$classes = $dbh->query("SELECT ID_EBD, NOME_CLASSE FROM TB_EBD ORDER BY NOME_CLASSE");
