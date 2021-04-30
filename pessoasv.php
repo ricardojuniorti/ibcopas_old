@@ -91,7 +91,7 @@ header("Content-type: text/html; charset=utf-8");
 	</div>	
 	<div class="row">
   	  <div class="form-group col-md-3">
-  	  	<label for="exampleInputEmail1">Bairro:</label>
+  	  	<label for="exampleInputEmail1">Bairroo:</label>
   	  	<input type="input" class="form-control" value="<?php echo $pessoa["BAIRRO"];?>" name="bairro" id="bairro" disabled placeholder="Digite o bairro">
   	  </div>
 	  <div class="form-group col-md-1">
